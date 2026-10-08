@@ -1,0 +1,22 @@
+# ResQNear AI configuration
+APP_NAME=ResQNear AI
+REGION_NAME=Demo Region
+ADMIN_PASSWORD=admin123
+COUNTRY=India
+
+# General emergency number. In India, 112 is the integrated emergency number.
+PRIMARY_EMERGENCY_NUMBER=112
+
+# Optional Groq AI integration
+GROQ_API_KEY=
+GROQ_MODEL=llama-3.1-8b-instant
+
+# Online lookup settings
+ENABLE_ONLINE_OSM_LOOKUP=true
+NOMINATIM_USER_AGENT=ResQNearAI-Hackathon-Demo
+OVERPASS_URL=https://overpass-api.de/api/interpreter
+
+# Default location used only for demo/fallback
+DEFAULT_LAT=26.1445
+DEFAULT_LON=91.7362
+DEFAULT_SEARCH_RADIUS_KM=15
